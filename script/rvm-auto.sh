@@ -15,6 +15,8 @@ unset RUBYLIB
 unset RUBYOPT
 unset RUBY_VERSION
 
+echo "HELLO THERE!!"
+
 rvm_fail()
 {
   echo "$1" >&2
