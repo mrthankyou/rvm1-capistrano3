@@ -35,11 +35,11 @@ if
   test -z "${rvm_path:-}"
 then
   export rvm_path
-  if   test -x  "/usr/share/.rvm/bin/rvm"
-  then rvm_path="/usr/share/.rvm"
+  if   test -x  "/usr/share/rvm/bin/rvm"
+  then rvm_path="/usr/share/rvm"
   elif test -x  "/usr/local/rvm/bin/rvm"
   then rvm_path="/usr/local/rvm"
-  else rvm_path="/usr/share/.rvm"
+  else rvm_path="/usr/share/rvm"
   fi
 fi
 
